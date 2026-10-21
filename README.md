@@ -25,12 +25,4 @@ java Main
 
 This is the code as represented in the report. The `createSnapshot` and `restoreSnapshot` methods currently only append status messages to an in-memory log and print success messages. They do **not** create backup copies, restore file contents, persist logs between runs, or implement database connectivity/authentication. The `java.io.*` import is present but unused. The project should not be treated as a production backup or recovery utility without implementing and testing those behaviors.
 
-## Source
 
-Extracted from the code pages in `OOP Mini Project Final.pdf` (pages 5–7).
-
-## Authors listed in the submitted report
-
-- Herman Parpatekar
-- Jayshree Kurunde
-- Apurva Kadam
